@@ -4,6 +4,16 @@ body {
     font-family: sans-serif;
 }
 
+.choices button {
+    background-color: transparent;
+    border: 3px solid white;
+    height: 120px;
+    width: 120px;
+    border-radius: 60px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
 .container {
     display: flex;
     justify-content: center;
@@ -12,7 +22,7 @@ body {
 }
 
 button img {
-    width: 100px;
-    height: 100px;
+    width: 50%;
+    height: 50%;
 }
 
